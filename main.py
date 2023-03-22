@@ -17,6 +17,9 @@ async def info(ip):
     url = f'/{ip}'
     return await get(url)
 
+async def info2(ip):
+    url = f'/{ip}'
+    return await get(url)
 
 async def blacklists(ip):
     url = f'/blacklist/{ip}'
